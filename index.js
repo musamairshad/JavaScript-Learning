@@ -1,3 +1,4 @@
+// ...JavaScript Learning...
 
 // Data types.
 // alert("Hello, World!");
@@ -42,3 +43,42 @@
 // var messege = "Hello";
 // var name = prompt("What is your name?");
 // alert(messege + " there, " + name);
+
+// var name = "Usama";
+// name.length;
+
+/* var tweet = prompt("Compose your tweet: "); */
+// var tweetCount = tweet.length;
+// alert("You have written " + tweetLength + " characters and you have " + (140 - tweetLength) + " characters left.");
+
+// var name = "Usama";
+// name.slice(0, 1);
+// name.slice(4, 5);
+// name.slice(0, 3);
+// name.slice(1, 5);
+
+// var tweet = prompt("Compose your tweet: ");
+// var tweetUnder140 = tweet.slice(0, 140);
+// alert(tweetUnder140);
+// alert(tweet.slice(0, 140));
+
+// var name = "Usama";
+// name = name.toUpperCase();
+// name = name.toLowerCase();
+// var name = prompt("Enter your name: ");
+// name.toUpperCase();
+
+
+// capitalized First Character of Name.
+// 1st Method.
+// var name = prompt("Enter your name: ");
+// alert(name.slice(0, 1).toUpperCase() + name.slice(1, name.length).toLowerCase());
+
+// 2nd Method.
+// var name = prompt("Enter your name: ");
+// var firstChar = name.slice(0, 1);
+// var upperCaseFirstChar = firstChar.toUpperCase();
+// var restOfName = name.slice(1, name.length);
+// restOfName = restOfName.toLowerCase(); // Extra step and it is optional.
+// var capitalizedName = upperCaseFirstChar + restOfName;
+// alert("Hello, " + capatalizedName);
