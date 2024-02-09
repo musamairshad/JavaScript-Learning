@@ -82,3 +82,16 @@
 // restOfName = restOfName.toLowerCase(); // Extra step and it is optional.
 // var capitalizedName = upperCaseFirstChar + restOfName;
 // alert("Hello, " + capatalizedName);
+
+// var dogAge = prompt("Enter your dog's age: ");
+// var humanAge = ((dogAge - 2) * 4) + 21;
+// alert("The age of a dog if it was human is: " + humanAge);
+
+// var x = 5;
+// var y = 3;
+// x += y;
+// x = x + y
+// x++;
+// x = x + 1;
+// x--;
+// x = x - 1;
