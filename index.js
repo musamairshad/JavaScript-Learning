@@ -95,3 +95,29 @@
 // x = x + 1;
 // x--;
 // x = x - 1;
+
+
+// function getMilk() {
+//     console.log("Leave House.");
+//     console.log("Move Right.");
+//     console.log("Move Right.");
+//     console.log("Move Up.");
+//     console.log("Move Up.");
+//     console.log("Move Up.");
+//     console.log("Move Up.");
+//     console.log("Move Right.");
+//     console.log("Move Right.");
+//     console.log("Buy Milk.");
+//     console.log("Move left.");
+//     console.log("Move left.");
+//     console.log("Move Down.");
+//     console.log("Move Down.");
+//     console.log("Move Down.");
+//     console.log("Move Down.");
+//     console.log("Move left.");
+//     console.log("Move left.");
+//     console.log("Enter House.");
+// }
+
+// getMilk();
+
