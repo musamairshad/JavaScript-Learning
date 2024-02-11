@@ -121,3 +121,51 @@
 
 // getMilk();
 
+
+// ...Karel World Functions practice...
+// function main(){
+//     goInCircle();
+//     goInCircle();
+//  }
+ 
+//  function goInCircle() {
+//     move();
+//     turnLeft();
+//     move();
+//     turnLeft();
+//  }
+
+// function main(){
+//     bottomLeftToTopRight();
+//  }
+ 
+//  function bottomLeftToTopRight() {
+//     moveFourTimes();
+//     turnLeft();
+//     moveFourTimes();
+//  }
+ 
+//  function moveFourTimes() {
+//     move();
+//     move();
+//     move();
+//     move();
+//  }
+
+
+// function main(){
+//     putBeeper();
+//     diagonalMoveAndBeeper();
+//     diagonalMoveAndBeeper();
+//     diagonalMoveAndBeeper();
+//     diagonalMoveAndBeeper();
+//  }
+ 
+ 
+//  function diagonalMoveAndBeeper() {
+//     move();
+//     turnLeft();
+//     move();
+//     putBeeper();
+//     turnRight();
+//  }
