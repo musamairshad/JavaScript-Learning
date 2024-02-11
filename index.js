@@ -169,3 +169,51 @@
 //     putBeeper();
 //     turnRight();
 //  }
+
+
+
+// ...Chess Board movement of karel...
+// function main(){
+//     moveRightAndPutBeepers();
+//     moveUpAndTurnLeft();
+//     moveLeftAndPutBeepers();
+//     moveUpAndTurnRight();
+//     moveRightAndPutBeepers();
+//     moveUpAndTurnLeft();
+//     moveLeftAndPutBeepers();
+//     moveUpAndTurnRight();
+//     moveRightAndPutBeepers();
+//  }
+ 
+ 
+//  function moveRightAndPutBeepers() {
+//     putBeeper();
+//     move();
+//     move();
+//     putBeeper();
+//     move();
+//     move();
+//     putBeeper();
+//  }
+ 
+//  function moveUpAndTurnLeft() {
+//     turnLeft();
+//     move();
+//     turnLeft();
+//  }
+ 
+//  function moveLeftAndPutBeepers() {
+//     move();
+//     putBeeper();
+//     move();
+//     move();
+//     putBeeper();
+//     move();
+//  }
+ 
+//  function moveUpAndTurnRight() {
+//     turnRight();
+//     move();
+//     turnRight();
+//  }
+
