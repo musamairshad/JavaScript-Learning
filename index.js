@@ -244,3 +244,26 @@
   
 //   getMilk(12);
 
+
+// Function for the number of bottles the robot will buy based on the amount of money that we provide 
+// to robot.
+// function numberOfBottlesRobotBuy(money) {
+//   var numberOfBottlesBought = money / 1.5;
+//   console.log("The numbers of bottles the robot will buy is " + Math.floor(numberOfBottlesBought));
+// }
+
+// numberOfBottlesRobotBuy(5);
+
+
+
+// function that tells us how many days, weeks and months we have left if we live until 90 years old.
+// function lifeInWeeks(age) {
+//         var yearsLeft = 90 - age;
+//         var x = yearsLeft * 365;
+//         var y = yearsLeft * 52;
+//         var z = yearsLeft * 12;    
+//         console.log("You have " + x + " days, " + y + " weeks, " + "and " + z + " months left.");
+// }
+
+// lifeInWeeks(56);
+
