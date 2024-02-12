@@ -267,3 +267,61 @@
 
 // lifeInWeeks(56);
 
+
+// Functions that takes input and returns the output.
+// function getMilk(money, costPerBottle) {
+//         console.log("Leave House.");
+//         console.log("Move Right.");
+//         console.log("Move Right.");
+//         console.log("Move Up.");
+//         console.log("Move Up.");
+//         console.log("Move Up.");
+//         console.log("Move Up.");
+//         console.log("Move Right.");
+//         console.log("Move Right.");
+//         // console.log("The numbers of bottles the robot will buy is " + Math.floor(numberOfBottlesBought));
+//         console.log("buy " + calcNoOfBottles(money, costPerBottle) + " bottles of milk.");
+//         console.log("Buy Milk.");
+//         console.log("Move left.");
+//         console.log("Move left.");
+//         console.log("Move Down.");
+//         console.log("Move Down.");
+//         console.log("Move Down.");
+//         console.log("Move Down.");
+//         console.log("Move left.");
+//         console.log("Move left.");
+//         console.log("Enter House.");
+    
+//         return calcChange(money, costPerBottle);
+//         // var change = calcChange(money, 1.5);
+//         // return change; // Remainder of the division.
+//     }
+    
+//     // var change = getMilk(4);
+//     // console.log(change);
+    
+//     function calcNoOfBottles(startingMoney, costPerBottle) {
+//         var numberOfBottlesBought = Math.floor(startingMoney / costPerBottle);
+    
+//         return numberOfBottlesBought;
+//     }
+    
+//     function calcChange(startingAmount, costPerBottle) {
+//         var change = startingAmount % costPerBottle;
+//         return change;
+//     }
+    
+//     console.log("Hello master, here is your " + getMilk(10, 3) + " change.");
+
+
+// BMI Calculator.
+// function bmiCalculator(weight, height) {
+//         // var calculatedBmi = weight / (height * height);
+//         // var calculatedBmi = weight / height ** 2;
+//         // var calculatedBmi = weight / Math.pow(height, 2);
+//         return Math.round(calculatedBmi);
+//     }
+    
+//     var bmi = bmiCalculator(65, 1.8);
+//     console.log(bmi);
+
