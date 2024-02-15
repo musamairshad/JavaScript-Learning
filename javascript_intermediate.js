@@ -96,3 +96,36 @@
 // console.log(guestList[1]);
 // console.log(guestList.includes("Daniyal"));
 
+
+// FizzBuzz Problem.
+// var output = [];
+// var n = 1;
+
+// function fizzBuzz() {
+//     if (n % 3 == 0 && n % 5 == 0) {
+//         output.push("FizzBuzz");
+//     }
+//      else if (n % 3 == 0) {
+//         output.push("Fizz");
+//     } else if (n % 5 == 0) {
+//         output.push("Buzz");
+//     } else {
+//         output.push(n);
+//     }
+//     n += 1;
+//     console.log(output);
+// }
+
+// fizzBuzz();
+
+
+// function whosPaying(names) {
+//     var n = Math.random();
+//     n = n * names.length;
+//     n = Math.floor(n);
+//     var name = names[n];
+//     return name + " is going to buy lunch today!";   
+// }
+
+// whosPaying(["Angela", "Ben", "Jenny", "Michael", "Chloe"]);
+
