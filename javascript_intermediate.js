@@ -69,19 +69,30 @@
 
 
 // Leap Year Program.
-function isLeap(year) {
-    if (year % 4 == 0) {
-        if(year % 100 == 0) {
-            if(year % 400 == 0) {
-                    console.log("Leap year.")
-                } else {
-                    console.log("Not leap year.");
-                }
-            } else {
-                console.log("Leap year.")
-            }
-        } else {
-            console.log("Not leap year.");
-        } 
-}
+// function isLeap(year) {
+//     if (year % 4 == 0) {
+//         if(year % 100 == 0) {
+//             if(year % 400 == 0) {
+//                     console.log("Leap year.")
+//                 } else {
+//                     console.log("Not leap year.");
+//                 }
+//             } else {
+//                 console.log("Leap year.")
+//             }
+//         } else {
+//             console.log("Not leap year.");
+//         } 
+// }
+
+
+// var guestName = prompt("Enter the name of guest which you want to check in the array: ");
+// var guestList = ["Usama", "Daniyal", "Bilal", "Ahmed", "Hassan"];
+// if (guestList.includes(guestName)) {
+//     alert("Welcome!");
+// } else {
+//     alert("Sorry, next time :)");
+// }
+// console.log(guestList[1]);
+// console.log(guestList.includes("Daniyal"));
 
