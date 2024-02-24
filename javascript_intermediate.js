@@ -129,3 +129,31 @@
 
 // whosPaying(["Angela", "Ben", "Jenny", "Michael", "Chloe"]);
 
+// While Loop.
+// var i = 1;
+// while (i <= 2) {
+//     console.log(i);
+//     i++;
+// }
+
+// function milkShake() {
+//     var i = 99;
+//     var word = "bottles";
+//     while (i >= 0) {
+//         var oneDown = i - 1;
+//         if (i > 1) {
+//             console.log(i + " " + word + " of Milkshake on the wall, " + i + " " + word + " of Milkshake.");
+//             console.log("Take one down and pass it around, " + oneDown + " " + word + " of Milkshake on the wall.");
+//         } else if (i == 1 && oneDown == 0) {
+//             word = "bottle";
+//             console.log(i + " " + word + " of Milkshake on the wall, " + i + " " + word + " of Milkshake.");
+//             console.log("Take one down and pass it around, " + "no more bottles of Milkshake on the wall.");
+//         } else {
+//             oneDown = 99;
+//             console.log("No more bottles of Milkshake on the wall, " + "no more bottles of Milkshake.");
+//             console.log("Go to the store and buy some more, " + oneDown + " bottles of Milkshake on the wall.");
+//         }
+//         console.log("");
+//         i--;
+//     }
+// }
