@@ -157,3 +157,79 @@
 //         i--;
 //     }
 // }
+
+// var output = [];
+// var n = 1;
+
+// function fizzBuzz() {
+//     while (n < 101) {
+//     if (n % 3 == 0 && n % 5 == 0) {
+//         output.push("FizzBuzz");
+//     }
+//      else if (n % 3 == 0) {
+//         output.push("Fizz");
+//     } else if (n % 5 == 0) {
+//         output.push("Buzz");
+//     } else {
+//         output.push(n);
+//     }
+//     n += 1;
+//     }
+// console.log(output);
+// }
+
+// fizzBuzz();
+
+
+// var output = [];
+
+// function fizzBuzz() {
+//     for (var n = 1; n < 101; n++) {
+//     if (n % 3 == 0 && n % 5 == 0) {
+//         output.push("FizzBuzz");
+//     }
+//      else if (n % 3 == 0) {
+//         output.push("Fizz");
+//     } else if (n % 5 == 0) {
+//         output.push("Buzz");
+//     } else {
+//         output.push(n);
+//     }
+//     }
+//     console.log(output);
+// }
+
+// fizzBuzz();
+
+
+// Fibonacci Series Program. My Solution.
+// function fibonacciGenerator (n) {
+//     var arr = [];
+//     for(var i = 0; i < n; i++) {
+//         if (i == 0 || i == 1) {
+//             arr.push(i);
+//         } else {
+//             var sum = arr[i - 2] + arr[i - 1];
+//             arr.push(sum);
+//         }
+//     }
+//     return arr;
+// }
+
+
+// 2nd Method. Instructor's Solution.
+// function fibonacciGenerator (n) {
+//     var output = [];
+//     if(n == 1) {
+//         output = [0];
+//     } else if (n == 2) {
+//         output = [0, 1];
+//     } else {
+//         output = [0, 1];
+//         for(var i = 2; i < n; i++) {
+//             output.push(output[output.length - 2] + output[output.length - 1]);
+//         }   
+//     }
+//     return output;
+// }
+
