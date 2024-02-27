@@ -1,0 +1,12 @@
+document;
+document.firstElementChild;
+document.firstElementChild.firstElementChild;
+document.firstElementChild.lastElementChild;
+document.firstElementChild.lastElementChild.firstElementChild;
+var heading = document.firstElementChild.lastElementChild.firstElementChild;
+heading.innerHTML = "Good Bye.";
+heading.style.color = "green";
+document.querySelector("input").click();
+var third = document.firstElementChild.lastElementChild.lastElementChild.lastElementChild;
+third.innerHTML = "Usama";
+document.firstElementChild.lastElementChild.querySelector("ul").lastElementChild.innerHTML = "Usama";
