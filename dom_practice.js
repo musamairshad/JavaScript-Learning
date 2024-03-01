@@ -24,3 +24,13 @@
 // document.querySelector(".btn");
 // document.querySelector("li a");
 // document.querySelector("a");
+// document.querySelector("li.item");
+// document.querySelector("#list a");
+// document.querySelector("#list .item");
+// document.querySelectorAll("#list .item");
+// document.querySelectorAll("#list .item")[2].style.color = "green";
+// document.querySelector("li a").style.color = "red";
+// document.querySelector("h1").style.color = "green";
+// document.querySelector("h1").style.fontSize = "10rem";
+// document.querySelector("h1").style.visibility = "hidden";
+// document.querySelector(".btn").style.backgroundColor = "yellow";
