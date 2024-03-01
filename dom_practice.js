@@ -34,3 +34,15 @@
 // document.querySelector("h1").style.fontSize = "10rem";
 // document.querySelector("h1").style.visibility = "hidden";
 // document.querySelector(".btn").style.backgroundColor = "yellow";
+// document.querySelector("button").classList.add("invisible");
+// document.querySelector("button").classList.remove("invisible");
+// document.querySelector("button").classList.toggle("invisible");
+// document.querySelector("h1").classList.toggle("huge");
+// document.getElementById("title").innerHTML;
+// document.getElementById("title").innerHTML = "Good Bye";
+// document.getElementById("title").textContent = "Good Bye";
+// document.getElementById("title").innerHTML = "<em>Good Bye</em";
+// document.querySelector("a");
+// document.querySelector("a").attributes;
+// document.querySelector("a").getAttribute("href");
+// document.querySelector("a").setAttribute("href", "https://www.bing.com");
