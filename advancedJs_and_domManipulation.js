@@ -22,3 +22,4 @@
 
 // calculator(2, 3, mul);
 // calculator(10, 5, div);
+// calculator(2, 3, add);
