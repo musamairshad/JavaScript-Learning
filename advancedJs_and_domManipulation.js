@@ -79,3 +79,46 @@
 // calculator(2, 3, mul);
 // calculator(10, 5, div);
 // calculator(2, 3, add);
+
+
+// ...JavaScript Objects...
+// var bellBoy1 = {
+//     name: "Timmy",
+//     age: 19,
+//     hasWorkPermit: true,
+//     languages: ["French", "English"]
+// }
+
+// console.log(bellBoy1.name);
+
+
+// var houseKeeper1 = {
+//     yearsOfExperience: 10,
+//     name: "Jane",
+//     cleaningReportoire: ["bathroom", "lobby", "bedroom"]
+    
+// }
+
+
+// function BellBoy(name, age, hasWorkPermit, languages) {
+//     this.name = name;
+//     this.age = age;
+//     this.hasWorkPermit = hasWorkPermit;
+//     this.languages = languages;
+// }
+
+// var bellBoy1 = new BellBoy("Timmy", 19, true, ["French", "English"])
+// var bellBoy2 = new BellBoy("Jimmy", 21, false, ["French", "German"])
+// console.log(bellBoy1.age);
+// console.log(bellBoy2.hasWorkPermit);
+
+// function HouseKeeper(yearsOfExperience, name, cleaningReportoire) {
+//     this.yearsOfExperience = yearsOfExperience;
+//     this.name = name;
+//     this.cleaningReportoire = cleaningReportoire;
+// }
+
+// var houseKeeper1 = new HouseKeeper(10, "Jane", ["bathroom", "lobby", "bedroom"]);
+// var houseKeeper2 = new HouseKeeper(12, "Kim", ["Kitchen", "storeroom", "bedroom"]);
+// console.log(houseKeeper1.name);
+// console.log(houseKeeper2.yearsOfExperience);
