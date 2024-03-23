@@ -122,3 +122,56 @@
 // var houseKeeper2 = new HouseKeeper(12, "Kim", ["Kitchen", "storeroom", "bedroom"]);
 // console.log(houseKeeper1.name);
 // console.log(houseKeeper2.yearsOfExperience);
+
+// var bellBoy1 = {
+//     name: "Timmy",
+//     age: 19,
+//     hasWorkPermit: true,
+//     languages: ["Urdu", "English"],
+//     moveSuitcase: function() {
+//         alert("May I take your suitcase?");
+//         pickUpSuitcase();
+//         move();
+//     }
+// }
+
+// bellBoy1.moveSuitcase();
+
+// function BellBoy(name, age, hasWorkPermit, languages) {
+//     this.name = name;
+//     this.age = age;
+//     this.hasWorkPermit = hasWorkPermit;
+//     this.languages = languages;
+//     this.moveSuitcase = function() {
+//         alert("May I take your suitcase?");
+//         pickUpSuitcase();
+//         move();
+//     }
+// }
+
+
+// function HouseKeeper(yearsOfExperience, name, cleaningReportoire) {
+//     this.yearsOfExperience = yearsOfExperience;
+//     this.name = name;
+//     this.cleaningReportoire = cleaningReportoire;
+//     this.clean = function() {
+//         alert("Cleaning in progress...");
+//     }
+// }
+
+// var houseKeeper = new HouseKeeper(10, "Kim", ["Kitchen", "Bedroom"]);
+// houseKeeper.clean();
+
+
+// function Audio(fileLocation) {
+//     this.fileLocation = fileLocation;
+//     this.play = function() {
+//         // Tap into the audio hardware
+//         // Check the file at fileLocation exists
+//         // Check the file at fileLocation is a sound file
+//         // Play the file at fileLocation
+//     }
+// }
+
+// var tom1 = new Audio("sounds/tom-1.mp3");
+// tom1.play();
