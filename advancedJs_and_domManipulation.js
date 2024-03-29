@@ -175,3 +175,10 @@
 
 // var tom1 = new Audio("sounds/tom-1.mp3");
 // tom1.play();
+
+
+// document.addEventListener("keydown", function(event) {
+    // alert("key was pressed!");
+    // console.log(event.key);
+    // playCorrectSound(event.key);
+// });
