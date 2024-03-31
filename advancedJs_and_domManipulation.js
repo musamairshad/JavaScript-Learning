@@ -182,3 +182,20 @@
     // console.log(event.key);
     // playCorrectSound(event.key);
 // });
+
+// $0.addEventListener("click", function(event) {
+//     console.log(event);
+// });
+
+// function sayHi(to) {
+//     console.log("Hello, "+ to);
+// }
+
+// sayHi("Usama");
+
+// function sayHi(name) {
+//     console.log("Hello, "+ name);
+// }
+
+// sayHi("Usama");
+
