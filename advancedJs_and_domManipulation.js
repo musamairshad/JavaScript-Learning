@@ -199,3 +199,24 @@
 
 // sayHi("Usama");
 
+// document.addEventListener("keypress", respondToKey(event));
+
+// function respondToKey(event) {
+//     console.log("Key pressed.");
+// }
+
+// function anotherAddEventListener(typeOfEvent, callBackFunction) {
+//     // Detect event/event type code...
+//     var eventThatHappened = {
+//         eventType: "click",
+//         key: "j",
+//         durationOfKeypress: 2,
+//     }
+//     if(eventThatHappened.eventType === typeOfEvent) {
+//         callBackFunction(eventThatHappened);
+//     }
+// }
+
+// anotherAddEventListener("click", function(event) {
+//     console.log(event);
+// })
