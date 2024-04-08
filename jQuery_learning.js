@@ -17,3 +17,9 @@
 // $("h1").removeClass("big-title");
 // $("h1").hasClass("big-title");
 // $("h1").addClass("big-title margin-50");
+// $("h1").text("Good Bye!");
+// $("button").text("Buy Now");
+// $("button").html("<em>Hey</em>");
+// console.log($("img").attr("src"));
+// $("a").attr("href", "https://www.gmail.com");
+// $("h1").attr("class");
