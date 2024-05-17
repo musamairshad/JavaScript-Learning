@@ -12,6 +12,10 @@ function nextSequence() {
     sound.play();
 }
 
+function playSound(name) {
+    
+}
+
 $(".btn").on("click", function (e) {
     var userChosenColor = e["target"]["id"];
     userClickedPattern.push(userChosenColor);
