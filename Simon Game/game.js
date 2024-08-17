@@ -10,5 +10,5 @@ function nextSequence() {
     var selectedButton = $("#" + randomChosenColor);
     selectedButton.fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
     var selectedButtonSound = new Audio("sounds/" + randomChosenColor + ".mp3");
-    s.play();
+    selectedButtonSound.play();
 }
