@@ -325,3 +325,108 @@
 //     var bmi = bmiCalculator(65, 1.8);
 //     console.log(bmi);
 
+
+// function add(num1, num2) {
+        // console.log(num1 + num2); // num1 & num2 are arguments. you can accept n number of arguments.
+// }
+        
+// add(5, 10) // 5 & 10 are parameters.
+
+// function addNumbers() {
+//         let sum = 0;
+//         for (let i = 0; i < arguments.length; i++) { 
+        // arguments is a built-in object that stores the received parameters.
+//             sum += arguments[i];
+//         }
+    
+//         return sum;
+//     }
+    
+//     function addNumbersV2(...args) { // spread operator
+//         let sum = 0;
+//         for (let i = 0; i < args.length; i++) {
+//             sum += args[i];
+//         }
+    
+//         return sum;
+//     }
+    
+//     // let ans = addNumbers(1, 2, 3, 4, 5, 6);
+//     // console.log(ans);
+    
+//     let ans2 = addNumbersV2(1, 2, 3, 4, 5);
+//     console.log(ans2);
+
+
+
+// Arrow Functions
+
+// 1. Syntax
+
+// const sayHello = () => {
+//         console.log("Hello");
+//     };
+    
+//     const add = (a, b) => {
+//         console.log(a + b);
+//     };
+    
+//     const addV2 = (a, b) => a + b; // One Liner
+    
+//     let sum = addV2(5, 2);
+//     console.log(sum);
+    
+//     // add(2, 5);
+    
+//     // sayHello();
+    
+//     // 2. 'arguments' keyword
+//     const addNumbers = () => {
+//         console.log(arguments); // Error
+//     };
+    
+//     const addNumbersV2 = (...numbers) => {
+//         console.log(numbers);
+//     }
+    
+//     // addNumbers(1, 2, 3, 4, 5);
+//     addNumbersV2(1, 2, 3, 4, 5);
+
+
+// 3. Hoisting
+
+// sayHi();
+
+// Function stored in memory before we call it in JavaScript.
+// function sayHi() {
+//     console.log("Hi!");
+// }
+
+// Hoisting works only in the case of normal functions and
+// it does'nt works in the case of arrow functions.
+
+
+// 4. this keyword
+
+// const myObj = {
+//     value: 10,
+//     myFunc: function () {
+//       console.log(this.value); // In this case this
+        // keyword refers to the current object in which it
+        // is being used.
+//     },
+// }
+
+// myObj.myFunc();
+
+// const myObj = {
+//         value: 10,
+//         myFunc: () => {
+//           console.log(this); // In this case of arrow function
+//         this keyword refers to window object (window of 
+//         browser) we can say as arrow functions has global
+//         scope.
+//         },
+//     }
+    
+//     myObj.myFunc();

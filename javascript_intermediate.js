@@ -233,3 +233,45 @@
 //     return output;
 // }
 
+
+
+
+// High Order Functions & Callback.
+// Function that takes function as an argument is High order function.
+// You can use callbacks in the case of timing consuming scenarios like API calling and if the
+// certain task is achieved then we will call the callback function.
+// The function which needs to be called is the callback function.
+// Callbacks used very widely in javascript earlier versions and to overcome callback hell
+// scenario the concept of promises were introduced. Promises helps in writing clean code.
+
+
+// function add(a, b, cb) {
+//     let result = a + b;
+//     cb(result);
+// }
+
+// function add(a, b, cb) {
+//     let result = a + b;
+//     cb(result);
+
+//     return () => console.log(result);
+// }
+
+// let resultFunc = add(2, 4, () => {});
+// console.log(typeof(result));
+// resultFunc();
+
+// function showResult(result) {
+//     console.log(result);
+// }
+
+// add(2, 2 , function(val) {
+//     console.log(val);
+// });
+
+// add(3, 2, (val) => console.log(val));
+// add(3, 2, val => console.log(val)); val is an argument
+
+// add(400, 10, val => console.log(val));
+
+// add(5, 2, showResult);
